@@ -13,13 +13,14 @@ This project challenged me greatly to use and expand my proficiencies with JavaS
 
 ## Installation
 
-To load and utilize this Workday Scheduler, simply visit the following URL from any contemporary web browser connected to the internet, and follow the prompts:
+To load and utilize this Workday Scheduler, simply visit the following URL from any contemporary web browser connected to the internet:
 
+https://peejd.github.io/Workday_Scheduler/
 
 
 ## Usage
 
-Upon visiting the landing page at the above URL, the user is presented with a single-page Workday Scheduler showing rows for each hour in a standard 8-hour workday:
+Upon visiting the above URL, the user is presented with a single-page Workday Scheduler showing rows for each hour in a standard 8-hour workday:
 The current day and date are displayed in the page header.
 
 Each row in the body of the page represents the workday hour specified in the row heading, and contains both an input text area where the user can enter to-do items for that hour, and a corresponding "Save" button at right which, when clicked, saves the to-do's for that hour into browswer localStorage so that the information persists when the page is refreshed.
