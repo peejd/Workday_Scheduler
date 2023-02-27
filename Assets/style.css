@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+/* STYLING FOR EACH HOUR USER NOTES */
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 15px;
+}
+/* BORDER BETWEEN HOURLY TEXTAREAS */
+.row {
+  border-top: 1px solid white;
+}
+/* STYLING FOR LEFTHAND HOURLY ROW HEADINGS */
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+/* SET COLOR/TEXT FOR PAST HOURS */
+.past {
+  background-color: #d3d3d3;
+  color: black;
+}
+/* SET COLOR/TEXT FOR CURRENT HOUR */
+.present {
+  background-color: #f3453c;
+  color: white;
+}
+/* SET COLOR/TEXT FOR FUTURE HOURS */
+.future {
+  background-color: #9ef89e;
+  color: black;
+}
+/* STYLING FOR SAVE BUTTONS */
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+/* HOVER VISUAL EFFECT FOR SAVE BUTTONS */
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
